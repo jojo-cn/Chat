@@ -1,0 +1,18 @@
+{
+  "name": "my-electron-pro2",
+  "version": "1.0.0",
+  "description": "personal",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "keywords": [
+    "[\"test\"",
+    "\"personal\"]"
+  ],
+  "author": "\"Daihx\"",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
