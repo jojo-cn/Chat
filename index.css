@@ -1,1 +1,6 @@
-body{background: #E0E0E0; font-family: MicroSoft YaHei; font-size: 16px}
+body{background: #E0E0E0; font-family: MicroSoft YaHei; font-size: 16px; margin: 0px}
+#title{background-color: #D7FBE9; width: 100%; height: 35px;}
+#title>p{text-align: center; line-height: 35px; float: left;}
+#close{background-color: red; width: 60px; height: 30px; border-radius: 5px; float: left; margin-top: 2px}
+
+niming

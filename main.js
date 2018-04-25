@@ -16,6 +16,8 @@ function createWindow () {
   let winOption = {
     width: 800,
     height: 600,
+    //设置不显示窗口边框
+    //frame: false,
     }
 
   mainWindow = new BrowserWindow(winOption)
