@@ -7,10 +7,17 @@
   </head>
   <body>
     <div id="title">
-      <p>Someone</p>
+      Someone
       <a id="close" href="javascript:window.close()">关闭</a>
     </div>
-    <div></div>
+    <div id="chat-content">
+      
+    </div>
+    <div class="line"></div>
+    <div class="chat-send-class">
+      <textarea id="chat_send_content"></textarea>
+      <button id="send">发送</button>
+    </div>
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
