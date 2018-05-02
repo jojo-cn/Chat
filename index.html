@@ -11,13 +11,37 @@
       <a id="close" href="javascript:window.close()">关闭</a>
     </div>
     <div id="chat-content">
-      <ul>
-        <li>
-          <!--<div id="woman"></div>-->
-          <img src="./img/woman.jpg">
-          <span>Something!!!</span>
-        </li>
-      </ul>
+      <!-- 对方发过来的消息 -->
+      <div class="message">
+      	<div class="clearfix">
+      		<div class="msg_content left">
+      			<img src="./img/woman.jpg" title="woman" class="left">
+      			<div class="bubble arrow_left">
+      				<div class="arrow_content">
+      					<div class="plain">
+      						<pre>Something!!!!!!</pre>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      <!-- 本地发送的消息 -->
+      <div class="message">
+      	<div class="clearfix">
+      		<div class="msg_content right">
+      			<img src="./img/man.jpg" title="man" class="right">
+      			<div class="bubble arrow_right">
+      				<div class="arrow_content">
+      					<div class="plain">
+      						<pre>Something!!!!!!</pre>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+
     </div>
     <div class="line"></div>
     <div class="chat-send-class">
